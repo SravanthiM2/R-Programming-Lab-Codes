@@ -1,0 +1,4 @@
+[1] "I AM SRAVANTHI"
+> lower_text <- tolower(text)
+> print(lower_text)
+[1] "i am sravanthi"
