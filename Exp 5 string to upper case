@@ -1,0 +1,4 @@
+> text <- "I am Sravanthi"
+> upper_text <- toupper(text)
+> print(upper_text)
+[1] "I AM SRAVANTHI"
