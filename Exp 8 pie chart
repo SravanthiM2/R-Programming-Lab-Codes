@@ -1,0 +1,19 @@
+# Data for chart
+subjects <- c("Maths", "Science", "English", "Computer")
+marks <- c(85, 90, 75, 95)
+
+# Create Bar Chart
+barplot(marks,
+        names.arg = subjects,
+        main = "Marks in Subjects",
+        xlab = "Subjects",
+        ylab = "Marks",
+        col = "skyblue")
+
+# Create Pie Chart
+pie(marks,
+    labels = subjects,
+    main = "Marks Distribution",
+    col = rainbow(length(marks)))
+
+
