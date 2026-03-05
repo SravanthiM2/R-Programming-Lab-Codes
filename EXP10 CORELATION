@@ -1,0 +1,23 @@
+# Create two numeric vectors
+x <- c(10, 20, 30, 40, 50)
+y <- c(15, 25, 35, 45, 55)
+
+# Find Covariance
+cov_value <- cov(x, y)
+print("Covariance between x and y:")
+print(cov_value)
+
+# Find Correlation
+cor_value <- cor(x, y)
+print("Correlation between x and y:")
+print(cor_value)
+
+OUTPUT
+[1] 250
+> 
+> # Find Correlation
+> cor_value <- cor(x, y)
+> print("Correlation between x and y:")
+[1] "Correlation between x and y:"
+> print(cor_value)
+[1] 1
