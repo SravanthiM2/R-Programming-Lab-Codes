@@ -1,0 +1,40 @@
+# Create a dataset
+students <- data.frame(
+  Name = c("Ravi", "Sita", "Arjun", "Meena", "Kiran"),
+  Age = c(20, 21, 22, 20, 23),
+  Marks = c(85, 90, 88, 92, 87)
+)
+
+# Display dataset
+print("Dataset:")
+print(students)
+
+# Mean of Marks
+mean_marks <- mean(students$Marks)
+print("Mean Marks:")
+print(mean_marks)
+
+# Median of Marks
+median_marks <- median(students$Marks)
+print("Median Marks:")
+print(median_marks)
+
+# Standard Deviation
+sd_marks <- sd(students$Marks)
+print("Standard Deviation of Marks:")
+print(sd_marks)
+
+# Summary statistics
+print("Summary of Dataset:")
+summary(students)
+
+OUT PUT
+> summary(students)
+     Name                Age           Marks     
+ Length:5           Min.   :20.0   Min.   :85.0  
+ Class :character   1st Qu.:20.0   1st Qu.:87.0  
+ Mode  :character   Median :21.0   Median :88.0  
+                    Mean   :21.2   Mean   :88.4  
+                    3rd Qu.:22.0   3rd Qu.:90.0  
+                    Max.   :23.0   Max.   :92.0  
+
