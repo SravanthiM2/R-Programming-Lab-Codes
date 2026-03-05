@@ -1,0 +1,9 @@
+data <- read.csv("students.csv")
+
+# Display the data
+print("Dataset:")
+print(data)
+
+# Display structure of dataset
+print("Structure of data:")
+str(data)
