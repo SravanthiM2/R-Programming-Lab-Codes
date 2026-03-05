@@ -1,0 +1,21 @@
+students <- data.frame(
+  name = c("sravs","srav","chaitu"),
+  marks = c(89,90,99)
+  
+)
+
+age <- data.frame(
+  age = c(45,19,20)
+)
+
+result_column <- cbind(students,age)
+print(result_column)
+
+OUTPUT
+    name marks age
+1  sravs    89  45
+2   srav    90  19
+3 chaitu    99  20
+
+
+
