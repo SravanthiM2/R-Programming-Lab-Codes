@@ -1,0 +1,13 @@
+library(class)
+train <- data.frame(x=c(1,2,3,4), y=c(1,2,3,4))
+group <- c("A","A","B","B")
+
+test <- data.frame(x=2.5,y=2.5)
+
+result <- knn(train,test,group)
+
+print(result)
+OUTPUT
+[1] B
+Levels: A B
+
