@@ -1,0 +1,25 @@
+v <- c(1,2,3,4)
+
+m <- matrix(1:4, nrow=2)
+
+f <- function(x) {
+  return(x^2)
+}
+
+my_list <- list(Vector=v, Matrix=m, Function=f)
+
+print(my_list)
+
+OUTPUT
+$Vector
+[1] 1 2 3 4
+
+$Matrix
+     [,1] [,2]
+[1,]    1    3
+[2,]    2    4
+
+$Function
+function(x) {
+    return(x^2)
+
