@@ -1,0 +1,21 @@
+v <- c(10,20,30,40)
+print(v)
+
+l <- list(1,"R",TRUE)
+print(l)
+
+df <- data.frame(
+  Name = c("A","B","C"),
+  Marks = c(80,85,90)
+)
+print(df)
+
+OUTPUT
+  Name Marks
+1    A    80
+2    B    85
+3    C    90
+
+
+
+
