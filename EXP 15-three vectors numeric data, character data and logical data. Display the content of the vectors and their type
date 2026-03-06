@@ -1,0 +1,27 @@
+num_vec <- c(10,20,30,40)
+char_vec <- c("A","B","C")
+log_vec <- c(TRUE,FALSE,TRUE)
+
+print(num_vec)
+print(char_vec)
+print(log_vec)
+
+print(typeof(num_vec))
+print(typeof(char_vec))
+print(typeof(log_vec))
+
+OUTPUT
+> print(num_vec)
+[1] 10 20 30 40
+> print(char_vec)
+[1] "A" "B" "C"
+> print(log_vec)
+[1]  TRUE FALSE  TRUE
+> 
+> print(typeof(num_vec))
+[1] "double"
+> print(typeof(char_vec))
+[1] "character"
+> print(typeof(log_vec))
+[1] "logical"
+
